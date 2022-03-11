@@ -3,6 +3,7 @@ module.exports = {
     title: `Project 1`,
     description: `ITDEV-164 Project 1`,
     author: `Timothy Huynh`,
+    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     contact: {
       name: `Timothy Huynh`,
       company: `Encom`,
@@ -12,6 +13,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `4yjkb4hcofy5`,
+        accessToken: `WfJ1gfa2ubdxq31x4eg2TEBfdSTU9p36kssfjbxmXBk`
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
