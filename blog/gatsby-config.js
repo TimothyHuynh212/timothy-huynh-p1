@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `A Recent History Of The SuperBowl`,
+    title: `A Recent History of The SuperBowl`,
     description: `ITDEV-164 Project 1`,
     author: `Timothy Huynh`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
